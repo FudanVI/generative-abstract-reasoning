@@ -1,0 +1,13 @@
+num_epochs: 2000
+batch_size: 256
+beta: 30
+learning_rate: 0.0001
+latent_dim: 5
+axis_dim: 4
+image_size: 64
+gpu: 0
+save_path: saves
+save_freq: 5
+log_freq: 1
+tmp_path: tmp
+dataset: triangle_5000
