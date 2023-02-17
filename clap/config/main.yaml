@@ -1,0 +1,78 @@
+gpu: 0
+save_path: saves
+save_freq: 5
+log_freq: 1
+log_image_num: 8
+tmp_path: tmp
+cache_path: cache
+run_path: runs
+dataset: RAVEN
+image_type: center_single
+
+
+balls:
+  1_obj:
+    dataset_type: chain
+    num_node: 12
+    num_row: 1
+    num_column: 12
+    image_size: 64
+    image_channel: 3
+    label_size: 1
+    num_sample: 10000
+  2_obj:
+    dataset_type: chain
+    num_node: 12
+    num_row: 1
+    num_column: 12
+    image_size: 64
+    image_channel: 3
+    label_size: 1
+    num_sample: 10000
+MPI3D:
+  real_complex:
+    dataset_type: chain
+    num_node: 8
+    num_row: 1
+    num_column: 8
+    image_size: 64
+    image_channel: 3
+    label_size: 1
+    num_sample: 16127
+CRPM:
+  triangle:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_column: 3
+    image_size: 64
+    image_channel: 1
+    label_size: 2
+    num_sample: 10000
+  complex_triangle:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_column: 3
+    image_size: 64
+    image_channel: 1
+    label_size: 2
+    num_sample: 10000
+  circle:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_column: 3
+    image_size: 64
+    image_channel: 1
+    label_size: 2
+    num_sample: 10000
+  complex_circle:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_column: 3
+    image_size: 64
+    image_channel: 1
+    label_size: 2
+    num_sample: 10000

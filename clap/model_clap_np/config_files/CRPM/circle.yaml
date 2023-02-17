@@ -1,0 +1,38 @@
+num_epochs: 100000
+batch_size: 512
+learning_rate: 0.0003
+concept_size: 1
+num_concept: 2
+f_size: 64
+decoder: conv
+num_missing: [1, 2]
+seed: 40
+
+embed_size: 16
+embed_hidden: [32]
+aggregator_hidden: [256, 256]
+func_hidden: [128, 128]
+func_param_hidden: [128]
+aggregator_size: 128
+
+anneal:
+  beta_z:
+    value: [100.0, 100.0]
+    milestones: [0, 1000]
+    mode: continuous
+  beta_f:
+    value: [100.0, 100.0]
+    milestones: [0, 1000]
+    mode: continuous
+  x_sigma:
+    value: [0.1, 0.1]
+    milestones: [0, 100]
+    mode: continuous
+  z_sigma:
+    value: [0.1, 0.1]
+    milestones: [0, 100]
+    mode: continuous
+  beta_mi:
+    value: [5000.0, 5000.0]
+    milestones: [0, 100]
+    mode: continuous

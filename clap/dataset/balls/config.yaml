@@ -1,0 +1,63 @@
+output_path: 'cache'
+shape_path: 'shapes'
+fps: 5
+split_name: ['train', 'val', 'test']
+random_seed: 0
+seqlen: 12
+image_size: 64
+physics_steps_per_frame: 5
+max_attempts: 100
+max_num_collision: 30
+
+1_obj:
+  split_size: [10000, 1000, 2000]
+  num_obj: 1
+  obj_shape: 'circle16'
+  obj_size: 8
+  obj_mass: 1
+  obj_colors: ['blue', 'red', 'yellow', 'fuchsia', 'aqua']
+  speed: 30
+  gravity_size: 10
+  self_rotate: False
+  rotate_v: [1.0, 3.0]
+  disentangle:
+    attr: ['Appear', 'Pos']
+2_obj:
+  split_size: [10000, 1000, 2000]
+  num_obj: 2
+  obj_shape: 'circle16'
+  obj_size: 8
+  obj_mass: 1
+  obj_colors: ['blue', 'red', 'yellow', 'fuchsia', 'aqua']
+  speed: 30
+  gravity_size: 10
+  self_rotate: False
+  rotate_v: [1.0, 3.0]
+  disentangle:
+    attr: ['Appear', 'Pos']
+2_obj_novel_color:
+  split_size: [100, 100, 2000]
+  num_obj: 2
+  obj_shape: 'circle16'
+  obj_size: 8
+  obj_mass: 1
+  obj_colors: ['orange', 'white']
+  speed: 30
+  gravity_size: 10
+  self_rotate: False
+  rotate_v: [1.0, 3.0]
+  disentangle:
+    attr: ['Appear', 'Pos']
+2_obj_novel_shape:
+  split_size: [100, 100, 2000]
+  num_obj: 2
+  obj_shape: 'diamond16'
+  obj_size: 8
+  obj_mass: 1
+  obj_colors: ['blue', 'red', 'yellow', 'fuchsia', 'aqua']
+  speed: 30
+  gravity_size: 10
+  self_rotate: False
+  rotate_v: [1.0, 3.0]
+  disentangle:
+    attr: ['Appear', 'Pos']
