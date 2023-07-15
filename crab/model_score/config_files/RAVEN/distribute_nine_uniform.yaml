@@ -1,0 +1,39 @@
+num_epochs: 10000
+batch_size: 512
+learning_rate: 0.0003
+concept_size: 32
+num_concept: 10
+rule_size: 2
+num_rule: 4
+save_freq_base: 1000
+
+enc: [32, 64, 128, 256]
+enc_inner_dim: 512
+dec: [64, 64, 32, 32]
+dec_inner_dim: 128
+
+anneal:
+  beta_z:
+    value: [8.0, 8.0]
+    milestones: [0, 400]
+    mode: continuous
+  beta_func:
+    value: [8.0, 8.0]
+    milestones: [0, 400]
+    mode: continuous
+  beta_prior:
+    value: [0.0, 0.00001, 0.00001]
+    milestones: [0, 2000, 3000]
+    mode: continuous
+  x_sigma:
+    value: [0.1, 0.1]
+    milestones: [0, 400]
+    mode: continuous
+  z_sigma:
+    value: [0.3, 0.3]
+    milestones: [0, 400]
+    mode: continuous
+  f_sigma:
+    value: [0.0, 0.0]
+    milestones: [0, 400]
+    mode: continuous
