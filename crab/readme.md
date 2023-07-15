@@ -49,16 +49,16 @@ python dataset/IRAVEN/create_IRAVEN.py \
 In the root, execute the script
 
 ```setup
-    ./create_dataset.sh
+./create_dataset.sh
 ```
 
 ## Training
 
 To train the model in the paper, run the command
 
-```
-python train.py --dataset RAVEN --image_type [Imgae Config] \
-	--exp_name crab --model model_score --gpu [GPU ID]
+```setup
+python train.py --dataset RAVEN --image_type [Image Config] \
+    --exp_name crab --model model_score --gpu [GPU ID]
 ```
 
 or execute the script
