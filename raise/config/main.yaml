@@ -1,0 +1,175 @@
+gpu: 0
+save_path: saves
+save_freq: 100
+log_freq: 1
+log_image_num: 8
+tmp_path: tmp
+cache_path: cache
+pretrain_path: pretrain
+run_path: runs
+dataset: RAVEN
+image_type: center_single
+
+
+RAVEN:
+  center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type', 'Size', 'Color']
+  in_center_single_out_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Size Out', 'Type In', 'Size In', 'Color In']
+  left_center_single_right_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Left', 'Size Left', 'Color Left', 'Type Right', 'Size Right', 'Color Right']
+  up_center_single_down_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Up', 'Size Up', 'Color Up', 'Type Down', 'Size Down', 'Color Down']
+  in_distribute_four_out_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Num/Pos In', 'Type In', 'Size In', 'Color In']
+  distribute_four:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  distribute_nine:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  in_distribute_four_out_center_single_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Num/Pos In', 'Type In', 'Size In', 'Color In']
+  distribute_four_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  distribute_nine_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+I-RAVEN:
+  center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type', 'Size', 'Color']
+  in_center_single_out_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Size Out', 'Type In', 'Size In', 'Color In']
+  left_center_single_right_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Left', 'Size Left', 'Color Left', 'Type Right', 'Size Right', 'Color Right']
+  up_center_single_down_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Up', 'Size Up', 'Color Up', 'Type Down', 'Size Down', 'Color Down']
+  in_distribute_four_out_center_single:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Num/Pos In', 'Type In', 'Size In', 'Color In']
+  distribute_four:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  distribute_nine:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  in_distribute_four_out_center_single_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Type Out', 'Num/Pos In', 'Type In', 'Size In', 'Color In']
+  distribute_four_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
+  distribute_nine_uniform:
+    dataset_type: grid
+    num_node: 9
+    num_row: 3
+    num_col: 3
+    image_size: 64
+    image_channel: 1
+    concept_name: ['Num/Pos', 'Type', 'Size', 'Color']
