@@ -1,0 +1,33 @@
+gpu: 0
+save_path: saves
+save_freq: 5
+log_freq: 1
+log_image_num: 4
+tmp_path: tmp
+cache_path: cache
+run_path: runs
+dataset: RAVEN,PGM
+size: 128
+
+
+dataset_info:
+  RAVEN:
+    num_cell: 9
+    src: <Your cache root to the RAVEN dataset>
+    instances: [base]
+  PGM:
+    num_cell: 9
+    src: <Your cache root to the PGM dataset>
+    instances: [neutral]
+  VAP:
+    num_cell: 6
+    src: <Your cache root to the VAP dataset>
+    instances: [transfer]
+  G1SET:
+    num_cell: 4
+    src: <Your cache root to the G1SET dataset>
+    instances: [base]
+  SVRT:
+    num_cell: 9
+    src: <Your cache root to the SVRT dataset>
+    instances: [base]

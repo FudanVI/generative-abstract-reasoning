@@ -1,0 +1,14 @@
+seed: 0
+num_workers: 4
+save_freq_base: 10
+batch: 64
+batch_test: 64
+train_iter: 1000
+test_iter: 10
+num_epochs: 10000
+embed_dim: 64
+n_embed: 512
+n_res_block: 2
+n_res_channel: 32
+channel: 128
+lr: 0.0004

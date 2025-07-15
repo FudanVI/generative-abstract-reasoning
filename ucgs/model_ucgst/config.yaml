@@ -1,0 +1,25 @@
+seed: 0
+num_workers: 4
+save_freq_base: 10
+batch: 128
+batch_test: 128
+train_iter: 100
+test_iter: 1
+num_epochs: 10000
+embed_dim: 64
+n_embed: 512
+n_res_block: 2
+n_res_channel: 32
+channel: 128
+latent_size: 64
+rule_size: 128
+dec_size: 256
+model_root: saves/vqvae/checkpoint.pt.tar
+lr: 0.0003
+clip: 1.0
+
+anneal:
+  beta:
+    value: [1.0, 1.0]
+    milestones: [0, 100]
+    mode: continuous
