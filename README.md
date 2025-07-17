@@ -1,9 +1,9 @@
 # Generative Abstract Reasoning
 This repo contains the code of the following papers:
-- **F. Shi**, B. Li, and X. Xue. *Beyond Task-Specific Reasoning: A Unified Conditional Generative Framework for Abstract Visual Reasoning.* ICML 2025.
-- **F. Shi**, B. Li, and X. Xue. *Abstracting Concept-Changing Rules for Solving Raven’s Progressive Matrix Problems.* [[Paper](https://arxiv.org/pdf/2307.07734)]
-- **F. Shi**, B. Li, and X. Xue. *Towards Generative Abstract Reasoning: Completing Raven's Progressive Matrix via Rule Abstraction and Selection.* ICLR 2024. [[Paper](https://arxiv.org/abs/2401.09966)]
-- **F. Shi**, B. Li, and X. Xue. *Compositional Law Parsing with Latent Random Functions.* ICLR 2023. [[Paper](https://arxiv.org/abs/2209.09115)]
-- **F. Shi**, B. Li, and X. Xue. *Raven's Progressive Matrices Completion with Latent Gaussian Process Priors.* AAAI 2021. [[Paper](https://arxiv.org/abs/2103.12045)]
+- **F. Shi**, B. Li, and X. Xue. *Beyond Task-Specific Reasoning: A Unified Conditional Generative Framework for Abstract Visual Reasoning.* ICML 2025. [<a href="https://arxiv.org/pdf/2507.11761" style="text-decoration: none;">Paper</a>] [<a href="https://github.com/FudanVI/generative-abstract-reasoning/tree/main/ucgs" style="text-decoration: none;">Code</a>]
+- **F. Shi**, B. Li, and X. Xue. *Abstracting Concept-Changing Rules for Solving Raven’s Progressive Matrix Problems.* [<a href="https://arxiv.org/pdf/2307.07734" style="text-decoration: none;">Paper</a>] [<a href="https://github.com/FudanVI/generative-abstract-reasoning/tree/main/crab" style="text-decoration: none;">Code</a>]
+- **F. Shi**, B. Li, and X. Xue. *Towards Generative Abstract Reasoning: Completing Raven's Progressive Matrix via Rule Abstraction and Selection.* ICLR 2024. [<a href="https://arxiv.org/abs/2401.09966" style="text-decoration: none;">Paper</a>] [<a href="https://github.com/FudanVI/generative-abstract-reasoning/tree/main/raise" style="text-decoration: none;">Code</a>]
+- **F. Shi**, B. Li, and X. Xue. *Compositional Law Parsing with Latent Random Functions.* ICLR 2023. [<a href="https://arxiv.org/abs/2209.09115" style="text-decoration: none;">Paper</a>] [<a href="https://github.com/FudanVI/generative-abstract-reasoning/tree/main/clap" style="text-decoration: none;">Code</a>]
+- **F. Shi**, B. Li, and X. Xue. *Raven's Progressive Matrices Completion with Latent Gaussian Process Priors.* AAAI 2021. [<a href="https://arxiv.org/abs/2103.12045" style="text-decoration: none;">Paper</a>] [<a href="https://github.com/FudanVI/generative-abstract-reasoning/tree/main/rpm-lgpp" style="text-decoration: none;">Code</a>]
 
 The detailed descriptions for papers are included in sub repositories.
